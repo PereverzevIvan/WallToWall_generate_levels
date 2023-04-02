@@ -11,7 +11,6 @@ class LevelMap:
             round(ROWS * COLUMNS / 2) + round(COLUMNS / 2),
             ROWS * COLUMNS - COLUMNS // 2
         ]
-        print(self.bad_points)
         self.generate_map()
     
     def generate_map(self):
