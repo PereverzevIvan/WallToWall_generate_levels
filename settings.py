@@ -1,0 +1,18 @@
+# General settings
+COLUMNS = 7
+ROWS = 7
+CELL_SIZE = 100
+
+HEIGHT = 16 + COLUMNS * CELL_SIZE + 15
+WIDTH = 16 + ROWS * CELL_SIZE + 16 + CELL_SIZE * 2 + 15
+
+FPS = 15
+
+# Colors
+BLACK = (0, 0, 0)
+GRAY = (50, 50, 50)
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BROWN = (250, 100, 100)
+GOLD = (212, 175, 55)
